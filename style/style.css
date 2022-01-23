@@ -1,0 +1,172 @@
+* {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+}
+
+h6, h5, h4, h3, h2, h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+ul, ol {
+    margin-top: 5px;
+}
+
+button:focus, div {
+    outline: none;
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+.container {
+    height: 903px;
+    /*margin: 0 auto 0 auto;*/
+    width: 50%;
+    min-width: 640px;
+    background: white;
+    display: flex;
+}
+
+.left_side {
+    height: 100%;
+    width: 400px;
+    background: #1e2939;
+}
+
+.left_side > img {
+    max-height: 260px;
+    padding-top: 20px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.side_container {
+    margin: 0 20px 20px 20px;
+}
+
+.side_item {
+    margin-top: 15px;
+}
+
+.side_item_header {
+    color: white;
+}
+
+.side_item_body {
+    margin-top: 5px;
+}
+
+.contact span {
+    color: white;
+    font-weight: 700;
+}
+
+.contact a {
+    margin-left: 5px;
+    color: #969696;
+}
+
+.side_item_body ul {
+    list-style: none;
+    color: #c0c0c0;
+}
+
+.side_item_body ul li::before {
+    content: "\2022";
+    color: #fb6d3a;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/*main board*/
+
+.main_board {
+    width: 100%;
+    padding: 50px 50px 50px 45px;
+}
+
+.my_name {
+    margin-top: 10px;
+}
+
+.about_me {
+    margin-top: 10px;
+    color: #595959;
+    font-size: 12px;
+}
+
+.about_me_block {
+    margin-top: 20px;
+}
+
+.edu_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edu_place {
+    margin-top: 5px;
+    /*border: 1px grey solid;*/
+    padding: 5px 0 5px 5px;
+}
+
+.edu_name {
+    color: #fb6d3a;
+    font-weight: 900;
+}
+
+.edu_specialty {
+    margin-top: 5px;
+    font-weight: 900;
+}
+
+.edu_comments {
+    margin-top: 5px;
+    color: #a8a8a8;
+    font-weight: 800;
+}
+
+.edu_comments span {
+    color: #000000;
+}
+
+/*
+projects
+ */
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.project_name {
+    margin-top: 5px;
+    color: #fb6d3a;
+}
+
+.project_link {
+    margin-top: 5px;
+}
+
+.project_qrcode {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
